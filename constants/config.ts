@@ -6,7 +6,7 @@ export const ADDRESS_MOCK_USDT = "0xD74a97D52A1f60955B0a49B27E4aEeaEB858C20b"
 
 export const API_SUBGRAPH = "https://api.studio.thegraph.com/query/91582/artha-finance/version/latest"
 
-export const API_CRYPTOTOKEN = "https://gist.githubusercontent.com/FjrREPO/096387afddcd21d4a730e6398e4650a4/raw/a9baaf7bc40eff2cde527b616cde37e226fbf821/crypto-token.json"
+export const API_CRYPTOTOKEN = "https://gist.githubusercontent.com/FjrREPO/096387afddcd21d4a730e6398e4650a4/raw/0f4119ed8ead795eaa8c0ae19b0cd08b6ab5ce9f/crypto-token.json"
 
 export const USDC_DECIMALS = 18;
 
