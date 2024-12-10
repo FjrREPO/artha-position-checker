@@ -13,6 +13,7 @@ model Liquidation {
   nftName              String?
   nftSymbol            String?
   nftImageUrl          String?
+  poolId               String?
   tokenId              String
   isLiquidatableStatus Boolean
   positionAccount      String
