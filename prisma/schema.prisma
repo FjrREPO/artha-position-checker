@@ -12,6 +12,7 @@ model Liquidation {
   addressIP            String?
   nftName              String?
   nftSymbol            String?
+  nftImageUrl          String?
   tokenId              String
   isLiquidatableStatus Boolean
   positionAccount      String

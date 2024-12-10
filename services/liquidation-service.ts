@@ -15,6 +15,7 @@ export async function upsertLiquidations(liquidations: AuctionApiSchema[]) {
             update: {
                 nftName: liquidation.nftData?.contract?.name || '',
                 nftSymbol: liquidation.nftData?.contract?.symbol || '',
+                nftImageUrl: liquidation.nftData?.contract?.openSeaMetadata?.imageUrl || '',
                 isLiquidatableStatus: liquidation.isLiquidatableStatus,
                 positionAccount: liquidation.position?.account?.id || '',
                 loanAddress: liquidation.position?.pool?.loanAddress || '',
@@ -26,6 +27,7 @@ export async function upsertLiquidations(liquidations: AuctionApiSchema[]) {
                 addressIP: liquidation.nftData?.contract?.address || '',
                 nftName: liquidation.nftData?.contract?.name || '',
                 nftSymbol: liquidation.nftData?.contract?.symbol || '',
+                nftImageUrl: liquidation.nftData?.contract?.openSeaMetadata?.imageUrl || '',
                 tokenId: liquidation.position.tokenId || '',
                 isLiquidatableStatus: liquidation.isLiquidatableStatus,
                 positionAccount: liquidation.position?.account?.id || '',
