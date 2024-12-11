@@ -1,10 +1,10 @@
 export const ADDRESS_ARTE = "0x1Fe992D0fb73f2a57b136e57Df9347a3aEb9652A"
 export const ADDRESS_CURATOR = "0x93C9b921aC5E274d663dCaF8b4c477640A13b91C"
-// export const ADDRESS_MOCK_USDC = "0xfc7Ca268cc901753f44686834dA0A038eB61BAdd"
+
 export const ADDRESS_MOCK_USDC = "0x0Ff609E5cc4eD4c967daC6584685183674cbaa24"
 export const ADDRESS_MOCK_USDT = "0xD74a97D52A1f60955B0a49B27E4aEeaEB858C20b"
 
-export const API_SUBGRAPH = "https://api.studio.thegraph.com/query/91582/arte-finance/version/latest"
+export const API_SUBGRAPH = "https://api.studio.thegraph.com/query/92452/artha-finance-mock/version/latest"
 
 export const API_CRYPTOTOKEN = "https://gist.githubusercontent.com/FjrREPO/096387afddcd21d4a730e6398e4650a4/raw/0f4119ed8ead795eaa8c0ae19b0cd08b6ab5ce9f/crypto-token.json"
 
